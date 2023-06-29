@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_200cdp"
+    android:orientation="vertical"
+    android:background="#708090"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="delete"
+        android:padding="@dimen/_2cdp"
+        android:textSize="@dimen/_16cdp"
+        android:gravity="center"
+        android:id="@+id/editorDeleteAlarm"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1cdp"
+        android:background="#ffffff"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="change loss limit"
+        android:padding="@dimen/_2cdp"
+        android:textSize="@dimen/_16cdp"
+        android:gravity="center"
+        android:id="@+id/editorEditLossLimitAlarm"/>
+
+</LinearLayout>

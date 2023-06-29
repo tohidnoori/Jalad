@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_win">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_5cdp"
+        android:background="#ff000000" />
+
+    <LinearLayout
+        android:id="@+id/aivaldari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10cdp"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:fontFamily="@font/cartoon1"
+            android:gravity="right"
+            android:text="داری"
+            android:textColor="#ff0c0c0c"
+            android:textSize="@dimen/_45cdp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:fontFamily="@font/cartoon1"
+            android:gravity="left"
+            android:text="ایول "
+            android:textColor="#ff0c0c0c"
+            android:textSize="@dimen/_45cdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/winLayoutPlayNext"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_60cdp"
+        android:layout_below="@id/aivaldari"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20cdp"
+        android:background="@drawable/bg_go_next"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:fontFamily="@font/byekan"
+            android:padding="@dimen/_5cdp"
+            android:text="برو بعدی"
+            android:textColor="#ffffffff"
+            android:textSize="@dimen/_35cdp" />
+
+        <ImageView
+            android:layout_width="@dimen/_60cdp"
+            android:layout_height="@dimen/_60cdp"
+            android:layout_gravity="center"
+            android:layout_weight="3.0"
+            android:padding="@dimen/_10cdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/next" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_5cdp"
+        android:layout_alignParentBottom="true"
+        android:background="#ff000000" />
+</RelativeLayout>

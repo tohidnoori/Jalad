@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#E5E3E3"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/usernameScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nazanibold"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:paddingTop="@dimen/_5cdp"
+        android:paddingLeft="@dimen/_5cdp"
+        android:layout_margin="@dimen/_5cdp"
+        android:textSize="@dimen/_25cdp" />
+
+    <TextView
+        android:id="@+id/recordScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usernameScore"
+        android:layout_marginLeft="@dimen/_5cdp"
+        android:layout_weight="1"
+        android:fontFamily="@font/nazanibold"
+        android:gravity="left"
+        android:paddingLeft="@dimen/_5cdp"
+        android:text="shirin"
+        android:textSize="@dimen/_15cdp" />
+
+    <TextView
+        android:id="@+id/rankScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5cdp"
+        android:layout_marginTop="@dimen/_5cdp"
+        android:layout_marginEnd="@dimen/_5cdp"
+        android:layout_marginBottom="@dimen/_5cdp"
+        android:layout_weight="1"
+        android:fontFamily="@font/nazanibold"
+        android:gravity="right"
+        android:textSize="@dimen/_20cdp" />
+</RelativeLayout>

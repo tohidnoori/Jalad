@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="@dimen/_15cdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F7F7F7"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/enter_word_2player_ic"
+            android:fontFamily="@font/cartoon1"
+            android:gravity="center"
+            android:text="یک نام وارد کن"
+            android:textSize="@dimen/_30cdp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/selectWord"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60cdp"
+            android:layout_gravity="center"
+             />
+
+        <LinearLayout
+            android:id="@+id/lettersLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_10cdp"
+            android:layout_marginRight="@dimen/_10cdp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="چ"
+                    android:textSize="@dimen/_27cdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="ج"
+                    android:textSize="@dimen/_27cdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="ث"
+                    android:textSize="@dimen/_27cdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="ت"
+                    android:textSize="@dimen/_27cdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="پ"
+                    android:textSize="@dimen/_27cdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="ب"
+                    android:textSize="@dimen/_27cdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="ا"
+                    android:textSize="@dimen/_27cdp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="ژ"
+                    android:textSize="@dimen/_27cdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="ز"
+                    android:textSize="@dimen/_27cdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="ر"
+                    android:textSize="@dimen/_27cdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="ذ"
+                    android:textSize="@dimen/_27cdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="د"
+                    android:textSize="@dimen/_27cdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="خ"
+                    android:textSize="@dimen/_27cdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="ح"
+                    android:textSize="@dimen/_27cdp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="ع"
+                    android:textSize="@dimen/_27cdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="ظ"
+                    android:textSize="@dimen/_27cdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="ط"
+                    android:textSize="@dimen/_27cdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="ض"
+                    android:textSize="@dimen/_27cdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="ص"
+                    android:textSize="@dimen/_27cdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="ش"
+                    android:textSize="@dimen/_27cdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="س"
+                    android:textSize="@dimen/_27cdp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="م"
+                    android:textSize="@dimen/_27cdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="ل"
+                    android:textSize="@dimen/_27cdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="گ"
+                    android:textSize="@dimen/_27cdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="ک"
+                    android:textSize="@dimen/_27cdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="ق"
+                    android:textSize="@dimen/_27cdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="ف"
+                    android:textSize="@dimen/_27cdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="غ"
+                    android:textSize="@dimen/_27cdp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginLeft="@dimen/_150cdp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="ی"
+                    android:textSize="@dimen/_27cdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="ه"
+                    android:textSize="@dimen/_27cdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="و"
+                    android:textSize="@dimen/_27cdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cartoon_bold"
+                    android:gravity="center"
+                    android:onClick="dialogCheck"
+                    android:text="ن"
+                    android:textSize="@dimen/_27cdp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/settingLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="@dimen/_170cdp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/_10cdp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/deleteWord"
+                    android:layout_width="@dimen/_50cdp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/delete_word"
+                    android:scaleType="fitXY"
+                    android:textSize="@dimen/_25cdp" />
+
+                <Button
+                    android:id="@+id/eraseWord"
+                    android:layout_width="@dimen/_100cdp"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/deleteWord"
+                    android:background="@drawable/bg_erase"
+                    android:padding="@dimen/_5cdp"
+                    android:fontFamily="@font/arezvan_fat "
+                    android:layout_marginLeft="@dimen/_10cdp"
+                    android:text="پاک کن"
+                    android:textSize="@dimen/_25cdp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="@dimen/_250cdp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight=".5">
+
+                <RelativeLayout
+                    android:id="@+id/goHome"
+                    android:layout_width="@dimen/_75cdp"
+                    android:layout_height="@dimen/_80cdp"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/bg_circle_tow_player">
+
+                    <ImageView
+                        android:layout_width="@dimen/_60cdp"
+                        android:layout_height="@dimen/_60cdp"
+                        android:layout_centerInParent="true"
+                        android:padding="@dimen/_5cdp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/home" />
+                </RelativeLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/start2PlayerGame"
+                    android:layout_width="@dimen/_150cdp"
+                    android:layout_height="@dimen/_75cdp"
+                    android:layout_toRightOf="@+id/goHome"
+                    android:elevation="@dimen/_5cdp"
+                    android:layout_marginLeft="@dimen/_10cdp"
+                    app:cardCornerRadius="@dimen/_5cdp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="#ffffff"
+                        android:background="#019F43"
+                        android:gravity="center"
+                        android:text="شروع"
+                        android:fontFamily="@font/cartoon"
+                        android:textSize="@dimen/_50cdp" />
+                </androidx.cardview.widget.CardView>
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context="com.thdnoori.Jalad.Activity.StoreActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_120cdp"
+        app:cardCornerRadius="@dimen/_10cdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/byekan"
+                android:gravity="center"
+                android:text="مغازه"
+                android:textColor="#090909"
+                android:textSize="@dimen/_45cdp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_2cdp"
+                android:background="#040303"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="@dimen/_60cdp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/little_coin" />
+
+                <ImageView
+                    android:layout_width="@dimen/_60cdp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/little_coin" />
+
+                <TextView
+                    android:id="@+id/myAllCoin"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/byekan"
+                    android:gravity="center"
+                    android:text="×100×"
+                    android:textColor="#090909"
+                    android:textSize="@dimen/_25cdp" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/goWheel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60cdp"
+        android:layout_margin="@dimen/_10cdp"
+        android:elevation="@dimen/_5cdp"
+        app:cardBackgroundColor="#F8D627"
+        app:cardCornerRadius="@dimen/_10cdp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/lucky_wheel_store"
+                android:layout_width="@dimen/_60cdp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/luck_wheel_ic"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/goWheelTv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/nazanibold"
+                android:gravity="center"
+                android:text="چرخه ی سکه"
+                android:textColor="#AA00FF"
+                android:textSize="@dimen/_40cdp" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/watchAd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80cdp"
+        android:layout_margin="@dimen/_10cdp"
+        android:elevation="@dimen/_5cdp"
+        android:enabled="false"
+        app:cardBackgroundColor="#7A7E7D"
+        app:cardCornerRadius="@dimen/_10cdp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="@dimen/_60cdp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="@dimen/_5cdp"
+                android:src="@drawable/watch_video" />
+
+            <ImageView
+                android:layout_width="@dimen/_60cdp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/_5cdp"
+                android:src="@drawable/coin_20" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/nazanibold"
+                android:gravity="center"
+                android:text="تبلیغ ببین"
+                android:textColor="#0B0010"
+                android:textSize="@dimen/_35cdp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/packRec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/watchAd"
+        android:layout_marginTop="@dimen/_5cdp" />
+
+</LinearLayout>

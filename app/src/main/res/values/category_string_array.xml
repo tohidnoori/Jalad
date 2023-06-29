@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="word_category">
+        <item>مکان</item>
+        <item>وسایل الکتریکی</item>
+        <item>وسایل خانه</item>
+        <item>مکان</item>
+        <item>وسایل الکتریکی</item>
+        <item>وسایل الکتریکی</item>
+        <item>وسایل الکتریکی</item>
+        <item>مکان</item>
+        <item>وسایل الکتریکی</item>
+        <item>وسایل الکتریکی</item>
+        <item>مکان</item>
+        <item>مکان</item>
+        <item>وسایل خانه</item>
+        <item>مکان</item>
+        <item>طبیعت</item>
+        <item>طبیعت</item>
+        <item>طبیعت</item>
+        <item>طبیعت</item>
+        <item>طبیعت</item>
+        <item>شغل</item>
+        <item>شغل</item>
+        <item>شغل</item>
+        <item>غذا</item>
+        <item>غذا</item>
+        <item>غذا</item>
+        <item>میوه</item>
+        <item>میوه</item>
+        <item>میوه</item>
+        <item>غذا</item>
+        <item>میوه</item>
+        <item>میوه</item>
+        <item>میوه</item>
+        <item>غذا</item>
+        <item>میوه</item>
+        <item>مکان</item>
+        <item>حیوانات</item>
+        <item>حیوانات</item>
+        <item>حیوانات</item>
+        <item>حیوانات</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>طبیعت</item>
+        <item>مکان</item>
+        <item>مکان تاریخی</item>
+        <item>مکان تاریخی</item>
+        <item>مکان تاریخی</item>
+        <item>مکان تاریخی</item>
+        <item>وسایل خانه</item>
+        <item>وسایل خانه</item>
+        <item>شغل</item>
+        <item>شغل</item>
+        <item>شغل</item>
+        <item>میوه</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>غذا</item>
+        <item>شهر</item>
+        <item>حیوان</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>دین</item>
+        <item>دین</item>
+        <item>دین</item>
+        <item>بازی</item>
+        <item>ورزش</item>
+        <item>ورزش</item>
+        <item>ورزش</item>
+        <item>ورزش</item>
+        <item>شاعر</item>
+        <item>شاعر</item>
+        <item>موسیقی</item>
+        <item>موسیقی</item>
+        <item>فیلم</item>
+        <item>شغل</item>
+        <item>شغل</item>
+        <item>شغل</item>
+        <item>وسایل خانه</item>
+        <item>شغل</item>
+        <item>غذا</item>
+        <item>غذا</item>
+        <item>میوه</item>
+        <item>میوه</item>
+        <item>غذا</item>
+        <item>غذا</item>
+        <item>میوه</item>
+        <item>کشور</item>
+        <item>میوه</item>
+        <item>میوه</item>
+        <item>ورزش</item>
+        <item>ورزش</item>
+        <item>ورزش</item>
+        <item>شغل</item>
+        <item>حیوان</item>
+        <item>حیوان</item>
+        <item>غذا</item>
+        <item>حیوان</item>
+        <item>موسیقی</item>
+        <item>کشور</item>
+        <item>وسایل نقلیه</item>
+        <item>بازی</item>
+        <item>حیوان</item>
+        <item>وسایل خانه</item>
+        <item>وسایل الکتریکی</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>میوه</item>
+        <item>میوه</item>
+        <item>میوه</item>
+        <item>میوه</item>
+        <item>میوه</item>
+        <item>میوه</item>
+        <item>حیوانات</item>
+        <item>حیوانات</item>
+        <item>حیوانات</item>
+        <item>حیوانات</item>
+        <item>حیوانات</item>
+        <item>حیوانات</item>
+        <item>حیوانات</item>
+        <item>حیوانات</item>
+        <item>حیوانات</item>
+        <item>حیوانات</item>
+        <item>حیوانات</item>
+        <item>حیوانات</item>
+        <item>حیوانات</item>
+        <item>حیوانات</item>
+        <item>حیوانات</item>
+        <item>حیوانات</item>
+        <item>موسیقی</item>
+        <item>موسیقی</item>
+        <item>موسیقی</item>
+        <item>موسیقی</item>
+        <item>موسیقی</item>
+        <item>موسیقی</item>
+        <item>موسیقی</item>
+        <item>موسیقی</item>
+        <item>موسیقی</item>
+        <item>موسیقی</item>
+        <item>مکان</item>
+        <item>مکان</item>
+        <item>مکان</item>
+        <item>مکان</item>
+        <item>مکان</item>
+        <item>مکان</item>
+        <item>مکان</item>
+        <item>شغل یا حرفه</item>
+        <item>شغل یا حرفه</item>
+        <item>شغل یا حرفه</item>
+        <item>شغل یا حرفه</item>
+        <item>شغل یا حرفه</item>
+        <item>شغل یا حرفه</item>
+        <item>شغل یا حرفه</item>
+        <item>شغل یا حرفه</item>
+        <item>شغل یا حرفه</item>
+        <item>شغل یا حرفه</item>
+        <item>شغل یا حرفه</item>
+        <item>شغل یا حرفه</item>
+        <item>شغل یا حرفه</item>
+        <item>ورزش</item>
+        <item>ورزش</item>
+        <item>ورزش</item>
+        <item>ورزش</item>
+        <item>ورزش</item>
+        <item>ورزش</item>
+        <item>ورزش</item>
+        <item>ورزش</item>
+        <item>ورزش</item>
+        <item>ورزش</item>
+        <item>ورزش</item>
+        <item>ورزش</item>
+        <item>ورزش</item>
+        <item>ورزش</item>
+        <item>ورزش</item>
+        <item>ورزش</item>
+        <item>ورزش</item>
+        <item>ورزش</item>
+        <item>ورزش</item>
+        <item>غذا</item>
+        <item>غذا</item>
+        <item>غذا</item>
+        <item>غذا</item>
+        <item>غذا</item>
+        <item>غذا</item>
+        <item>غذا</item>
+        <item>غذا</item>
+        <item>غذا</item>
+        <item>غذا</item>
+        <item>غذا</item>
+        <item>غذا</item>
+        <item>غذا</item>
+        <item>غذا</item>
+        <item>غذا</item>
+        <item>غذا</item>
+        <item>غذا</item>
+        <item>غذا</item>
+        <item>غذا</item>
+        <item>غذا</item>
+        <item>غذا</item>
+        <item>غذا</item>
+        <item>غذا</item>
+        <item>غذا</item>
+        <item>غذا</item>
+        <item>غذا</item>
+        <item>غذا</item>
+        <item>طبیعت</item>
+        <item>طبیعت</item>
+        <item>طبیعت</item>
+        <item>طبیعت</item>
+        <item>طبیعت</item>
+        <item>وسایل الکتریکی</item>
+        <item>وسایل الکتریکی</item>
+        <item>وسایل الکتریکی</item>
+        <item>وسایل الکتریکی</item>
+        <item>وسایل الکتریکی</item>
+        <item>وسایل  نقلیه</item>
+        <item>وسایل  نقلیه</item>
+        <item>وسایل  نقلیه</item>
+        <item>وسایل  نقلیه</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>سبزیجات</item>
+        <item>سبزیجات</item>
+        <item>سبزیجات</item>
+        <item>سبزیجات</item>
+        <item>سبزیجات</item>
+        <item>سبزیجات</item>
+        <item>سبزیجات</item>
+        <item>سبزیجات</item>
+        <item>حبوبات</item>
+        <item>سبزیجات</item>
+        <item>سبزیجات</item>
+        <item>سبزیجات</item>
+        <item>خوراکی</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>وسایل الکتریکی</item>
+        <item>وسایل الکتریکی</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>ورزش</item>
+        <item>ورزش</item>
+        <item>ورزش</item>
+        <item>اعضای بدن</item>
+        <item>میوه</item>
+        <item>میوه</item>
+        <item>میوه</item>
+        <item>میوه</item>
+        <item>میوه</item>
+        <item>میوه</item>
+        <item>وسایل خانه</item>
+        <item>وسایل خانه</item>
+        <item>وسایل خانه</item>
+        <item>وسایل خانه</item>
+        <item>وسایل خانه</item>
+        <item>وسایل خانه</item>
+        <item>وسایل خانه</item>
+        <item>وسایل خانه</item>
+        <item>وسایل خانه</item>
+        <item>وسایل خانه</item>
+        <item>وسایل خانه</item>
+        <item>وسایل خانه</item>
+        <item>پوشاک</item>
+        <item>مکان تاریخی</item>
+        <item>مکان تاریخی</item>
+        <item>مکان تاریخی</item>
+        <item>مکان تاریخی</item>
+        <item>مکان تاریخی</item>
+        <item>مکان تاریخی</item>
+        <item>مکان تاریخی</item>
+        <item>مکان تاریخی</item>
+        <item>مکان تاریخی</item>
+        <item>مکان تاریخی</item>
+        <item>مکان تاریخی</item>
+        <item>مکان تاریخی</item>
+        <item>طبیعت</item>
+        <item>طبیعت</item>
+        <item>وسایل خانه</item>
+        <item>وسایل خانه</item>
+        <item>وسایل خانه</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>وسایل خانه</item>
+        <item>حبوبات</item>
+        <item>حبوبات</item>
+        <item>حبوبات</item>
+        <item>حبوبات</item>
+        <item>حبوبات</item>
+        <item>وسایل الکتریکی</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>شاعر</item>
+        <item>شاعر</item>
+        <item>شاعر</item>
+        <item>شاعر</item>
+        <item>شاعر</item>
+        <item>شاعر</item>
+        <item>شاعر</item>
+        <item>شاعر</item>
+        <item>شاعر</item>
+        <item>شاعر</item>
+        <item>شاعر</item>
+        <item>شاعر</item>
+        <item>شاعر</item>
+        <item>شاعر</item>
+        <item>شاعر</item>
+        <item>شاعر</item>
+        <item>شاعر</item>
+        <item>شاعر</item>
+        <item>شاعر</item>
+        <item>شاعر</item>
+        <item>نویسنده</item>
+        <item>نویسنده</item>
+        <item>نویسنده</item>
+        <item>نویسنده</item>
+        <item>نویسنده</item>
+        <item>شاعر</item>
+        <item>نویسنده</item>
+        <item>شاعر</item>
+        <item>نویسنده</item>
+        <item>نویسنده</item>
+    </string-array>
+    <string-array name="word3_category">
+        <item>اعضای بدن</item>
+        <item>ورزش</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>پوشاک</item>
+        <item>حیوانات</item>
+        <item>خوراکی</item>
+        <item>خوراکی</item>
+        <item>سبزیجات</item>
+        <item>خوراکی</item>
+        <item>اشیاء</item>
+        <item>اشیاء</item>
+        <item>اشیاء</item>
+        <item>وسایل خانه</item>
+        <item>اشیاء</item>
+        <item>اشیاء</item>
+        <item>اشیاء</item>
+        <item>اشیاء</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>حیوانات</item>
+        <item>اشیاء</item>
+        <item>حیوانات</item>
+        <item>حیوانات</item>
+        <item>حیوانات</item>
+        <item>میوه</item>
+        <item>میوه</item>
+        <item>میوه</item>
+        <item>خوراکی</item>
+        <item>شهر</item>
+        <item>کشور</item>
+        <item>اعضای بدن</item>
+        <item>میوه</item>
+        <item>غذا</item>
+        <item>رنگ</item>
+        <item>رنگ</item>
+        <item>رنگ</item>
+        <item>طبیعت</item>
+        <item>طبیعت</item>
+        <item>خوراکی</item>
+        <item>میوه</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>رنگ</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>شهر</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>وسایل خانه</item>
+        <item>وسایل خانه</item>
+        <item>حیوانات</item>
+        <item>حیوانات</item>
+        <item>حیوانات</item>
+        <item>حیوانات</item>
+        <item>حیوانات</item>
+        <item>حیوانات</item>
+        <item>حیوانات</item>
+        <item>موسیقی</item>
+        <item>کشور</item>
+        <item>کشور</item>
+        <item>میوه</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>اعضای بدن</item>
+        <item>وسایل خانه</item>
+        <item>وسایل خانه</item>
+        <item>وسایل خانه</item>
+        <item>وسایل خانه</item>
+        <item>وسایل الکتریکی</item>
+        <item>طبیعت</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>ارم ماشین</item>
+        <item>حبوبات</item>
+        <item>حبوبات</item>
+        <item>حبوبات</item>
+        <item>اسم پسر</item>
+        <item>اسم پسر</item>
+        <item>اسم پسر</item>
+        <item>اسم پسر</item>
+        <item>اسم پسر</item>
+        <item>اسم پسر</item>
+        <item>اسم پسر</item>
+        <item>اسم پسر</item>
+        <item>اسم پسر</item>
+        <item>اسم پسر</item>
+        <item>اسم پسر</item>
+        <item>اسم پسر</item>
+        <item>اسم پسر</item>
+        <item>اسم پسر</item>
+        <item>اسم پسر</item>
+        <item>اسم پسر</item>
+        <item>اسم دختر</item>
+        <item>اسم دختر</item>
+        <item>اسم دختر</item>
+        <item>اسم دختر</item>
+        <item>اسم دختر</item>
+        <item>اسم دختر</item>
+        <item>اسم دختر</item>
+        <item>اسم دختر</item>
+        <item>اسم دختر</item>
+        <item>اسم دختر</item>
+    </string-array>
+    <string-array name="word_timer_category">
+        <item>طبیعت</item>
+        <item>طبیعت</item>
+        <item>طبیعت</item>
+        <item>طبیعت</item>
+        <item>طبیعت</item>
+        <item>طبیعت</item>
+        <item>طبیعت</item>
+        <item>طبیعت</item>
+        <item>طبیعت</item>
+        <item>طبیعت</item>
+        <item>کشور در اسیا</item>
+        <item>کشوری در اسیا</item>
+        <item>کشوری در اسیا</item>
+        <item>کشوری در اسیا</item>
+        <item>کشوری در اسیا</item>
+        <item>کشوری در اسیا</item>
+        <item>کشوری در اسیا</item>
+        <item>کشوری در اسیا</item>
+        <item>کشوری در اسیا</item>
+        <item>کشوری در اسیا</item>
+        <item>کشوری در اسیا</item>
+        <item>کشوری در اسیا</item>
+        <item>کشوری در اسیا</item>
+        <item>کشوری در قاره امریکا</item>
+        <item>کشوری در قاره امریکا</item>
+        <item>کشوری در قاره امریکا</item>
+        <item>کشوری در قاره امریکا</item>
+        <item>کشوری در قاره امریکا</item>
+        <item>کشوری در قاره امریکا</item>
+        <item>ورزش توپی</item>
+        <item>ورزش توپی</item>
+        <item>ورزش توپی</item>
+        <item>ورزش توپی</item>
+        <item>ورزش توپی</item>
+        <item>کشوری در اروپا</item>
+        <item>کشوری در اروپا</item>
+        <item>کشوری در اروپا</item>
+        <item>کشوری در اروپا</item>
+        <item>کشوری در اروپا</item>
+        <item>کشوری در اروپا</item>
+        <item>کشوری در اروپا</item>
+        <item>کشوری در اروپا</item>
+        <item>ابزیان(حیوانات آبی)</item>
+        <item>ابزیان(حیوانات آبی)</item>
+        <item>ابزیان(حیوانات آبی)</item>
+        <item>ابزیان(حیوانات آبی)</item>
+        <item>ابزیان(حیوانات آبی)</item>
+        <item>ابزیان(حیوانات آبی)</item>
+        <item>ابزیان(حیوانات آبی)</item>
+        <item>ابزیان(حیوانات آبی)</item>
+        <item>ابزیان(حیوانات آبی)</item>
+        <item>ابزیان(حیوانات آبی)</item>
+        <item>ابزیان(حیوانات آبی)</item>
+        <item>ابزیان(حیوانات آبی)</item>
+        <item>ابزیان(حیوانات آبی)</item>
+        <item>ابزیان(حیوانات آبی)</item>
+        <item>ابزیان(حیوانات آبی)</item>
+        <item>ابزیان(حیوانات آبی)</item>
+        <item>ابزیان(حیوانات آبی)</item>
+        <item>ابزیان(حیوانات آبی)</item>
+        <item>پرندگان</item>
+        <item>پرندگان</item>
+        <item>پرندگان</item>
+        <item>پرندگان</item>
+        <item>پرندگان</item>
+        <item>پرندگان</item>
+        <item>پرندگان</item>
+        <item>پرندگان</item>
+        <item>پرندگان</item>
+        <item>پرندگان</item>
+        <item>پرندگان</item>
+        <item>پرندگان</item>
+        <item>پرندگان</item>
+        <item>پرندگان</item>
+        <item>پرندگان</item>
+        <item>پرندگان</item>
+        <item>پرندگان</item>
+        <item>پرندگان</item>
+        <item>پرندگان</item>
+        <item>پرندگان</item>
+        <item>پرندگان</item>
+        <item>پرندگان</item>
+        <item>پرندگان</item>
+        <item>پرندگان</item>
+        <item>پرندگان</item>
+        <item>پرندگان</item>
+        <item>چهار پایان</item>
+        <item>چهار پایان</item>
+        <item>چهار پایان</item>
+        <item>چهار پایان</item>
+        <item>چهار پایان</item>
+        <item>چهار پایان</item>
+        <item>چهار پایان</item>
+        <item>چهار پایان</item>
+        <item>چهار پایان</item>
+        <item>چهار پایان</item>
+        <item>چهار پایان</item>
+        <item>چهار پایان</item>
+        <item>چهار پایان</item>
+        <item>چهار پایان</item>
+        <item>چهار پایان</item>
+        <item>چهار پایان</item>
+        <item>چهار پایان</item>
+        <item>چهار پایان</item>
+        <item>ورزش رزمی</item>
+        <item>ورزش رزمی</item>
+        <item>ورزش رزمی</item>
+        <item>ورزش رزمی</item>
+        <item>ورزش رزمی</item>
+        <item>ورزش رزمی</item>
+        <item>ورزش رزمی</item>
+        <item>ورزش رزمی</item>
+        <item>ورزش رزمی</item>
+        <item>ورزش رزمی</item>
+        <item>ورزش رزمی</item>
+        <item>میوه هسته دار</item>
+        <item>میوه هسته دار</item>
+        <item>میوه هسته دار</item>
+        <item>میوه هسته دار</item>
+        <item>میوه هسته دار</item>
+        <item>میوه هسته دار</item>
+        <item>میوه هسته دار</item>
+        <item>میوه هسته دار</item>
+        <item>میوه هسته دار</item>
+        <item>ساز بادی</item>
+        <item>ساز بادی</item>
+        <item>ساز بادی</item>
+        <item>ساز بادی</item>
+        <item>ساز بادی</item>
+        <item>ساز زهی(سیمی)</item>
+        <item>ساز زهی(سیمی)</item>
+        <item>ساز زهی(سیمی)</item>
+        <item>ساز زهی(سیمی)</item>
+        <item>ساز زهی(سیمی)</item>
+        <item>ساز زهی(سیمی)</item>
+        <item>ساز زهی(سیمی)</item>
+        <item>ساز زهی(سیمی)</item>
+        <item>ساز زهی(سیمی)</item>
+        <item>ساز زهی(سیمی)</item>
+    </string-array>
+
+</resources>

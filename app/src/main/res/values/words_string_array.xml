@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="words">
+        <item>کتاب خانه</item>
+        <item>رایانه</item>
+        <item>چوب لباسی</item>
+        <item>مدرسه</item>
+        <item>کیبورد</item>
+        <item>بلندگو</item>
+        <item>میکروفن</item>
+        <item>استخر</item>
+        <item>جاروبرقی</item>
+        <item>تلویزیون</item>
+        <item>شهربازی</item>
+        <item>گیمنت</item>
+        <item>تخت خواب</item>
+        <item>ورزشگاه</item>
+        <item>رودخانه</item>
+        <item>ابشار</item>
+        <item>دریاچه</item>
+        <item>اوقیانوس</item>
+        <item>جنگل</item>
+        <item>برنامه نویس</item>
+        <item>نقشه کش</item>
+        <item>پلیس</item>
+        <item>خورشت سبزی</item>
+        <item>بریانی</item>
+        <item>کباب و برنج</item>
+        <item>پرتقال</item>
+        <item>سیب سبز</item>
+        <item>زردالو</item>
+        <item>فسنجان</item>
+        <item>خربزه</item>
+        <item>هندوانه</item>
+        <item>لیمو ترش</item>
+        <item>قرمه سبزی</item>
+        <item>نارگیل</item>
+        <item>اشپزخانه</item>
+        <item>کبوتر</item>
+        <item>گوسفند</item>
+        <item>گوساله</item>
+        <item>مورچه</item>
+        <item>افغانستان</item>
+        <item>اسکاتلند</item>
+        <item>انگلستان</item>
+        <item>فرانسه</item>
+        <item>پاکستان</item>
+        <item>عربستان</item>
+        <item>ارژانتین</item>
+        <item>برزیل</item>
+        <item>کانادا</item>
+        <item>بلغارستان</item>
+        <item>استرالیا</item>
+        <item>اسمان</item>
+        <item>رستوران</item>
+        <item>تخت جمشید</item>
+        <item>منارجنبان</item>
+        <item>پل خواجو</item>
+        <item>عالیقاپو</item>
+        <item>یخچال</item>
+        <item>اجاق گاز</item>
+        <item>داروساز</item>
+        <item>حسابدار</item>
+        <item>مدیرعامل</item>
+        <item>بادمجان</item>
+        <item>اصفهان</item>
+        <item>تهران</item>
+        <item>تبریز</item>
+        <item>سمنان</item>
+        <item>خرم اباد</item>
+        <item>مشهد</item>
+        <item>طاس کباب</item>
+        <item>بندرعباس</item>
+        <item>خروس</item>
+        <item>شیراز</item>
+        <item>اهواز</item>
+        <item>مسیحیت</item>
+        <item>مسلمان</item>
+        <item>یهودیت</item>
+        <item>شطرنج</item>
+        <item>تنیس روی میز</item>
+        <item>فوتبال</item>
+        <item>بسکتبال</item>
+        <item>والیبال</item>
+        <item>سعدی</item>
+        <item>نیما یوشیج</item>
+        <item>گیتار برقی</item>
+        <item>سنتور</item>
+        <item>پدرخوانده</item>
+        <item>میوه فروش</item>
+        <item>نگهبان</item>
+        <item>اموزگار</item>
+        <item>شوفاژ</item>
+        <item>مکانیک</item>
+        <item>میرزاقاسمی</item>
+        <item>کوفته تبریزی</item>
+        <item>البالو</item>
+        <item>گیلاس</item>
+        <item>سیرابی</item>
+        <item>کله و پاچه</item>
+        <item>اناناس</item>
+        <item>کلمبیا</item>
+        <item>گردو</item>
+        <item>پسته</item>
+        <item>هندبال</item>
+        <item>فوتسال</item>
+        <item>پارکور</item>
+        <item>خلبان</item>
+        <item>اختاپوس</item>
+        <item>یوزپلنگ</item>
+        <item>خورشت ماست</item>
+        <item>شامپانزه</item>
+        <item>سازدهنی</item>
+        <item>اسلوونی</item>
+        <item>تراکتور</item>
+        <item>تخته نرد</item>
+        <item>کانگورو</item>
+        <item>ابگرمکن</item>
+        <item>موبایل</item>
+        <item>استرالیا</item>
+        <item>ایرلند</item>
+        <item>لهستان</item>
+        <item>اذربایجان</item>
+        <item>گرجستان</item>
+        <item>مغولستان</item>
+        <item>هندوستان</item>
+        <item>امارات</item>
+        <item>قزاقستان</item>
+        <item>افریقای جنوبی</item>
+        <item>اسپانیا</item>
+        <item>ویتنام</item>
+        <item>فیلیپین</item>
+        <item>اکوادور</item>
+        <item>قرقیزستان</item>
+        <item>کره شمالی</item>
+        <item>کره جنوبی</item>
+        <item>مجارستان</item>
+        <item>دانمارک</item>
+        <item>فلسطین</item>
+        <item>هنگ کنگ</item>
+        <item>سنگاپور</item>
+        <item>کاستاریکا</item>
+        <item>صربستان</item>
+        <item>بنگلادش</item>
+        <item>تانزانیا</item>
+        <item>الجزایر</item>
+        <item>توت فرنگی</item>
+        <item>لیمو شیرین</item>
+        <item>بادام هندی</item>
+        <item>نارنگی</item>
+        <item>شاه توت</item>
+        <item>کمبوزه</item>
+        <item>روباه</item>
+        <item>بلدرچین</item>
+        <item>فلامینگو</item>
+        <item>دارکوب</item>
+        <item>جیرجیرک</item>
+        <item>حلزون</item>
+        <item>خرس قطبی</item>
+        <item>جوجه تیغی</item>
+        <item>خارپشت</item>
+        <item>سوسمار</item>
+        <item>مورچه خوار</item>
+        <item>راکون</item>
+        <item>خرخاکی</item>
+        <item>موریانه</item>
+        <item>اسب ابی</item>
+        <item>پروانه</item>
+        <item>هارمونی</item>
+        <item>ملودی</item>
+        <item>چهارمضراب</item>
+        <item>فلامنکو</item>
+        <item>سی تار</item>
+        <item>کمانچه</item>
+        <item>ترومبون</item>
+        <item>ساکسفون</item>
+        <item>ارگ برقی</item>
+        <item>گیتار بیس</item>
+        <item>فرودگاه</item>
+        <item>درمانگاه</item>
+        <item>سرویس بهداشتی</item>
+        <item>کلانتری</item>
+        <item>پمپ بنزین</item>
+        <item>ساحل</item>
+        <item>اژانس مسافرتی</item>
+        <item>مددکار</item>
+        <item>روانشناس</item>
+        <item>مهندس شیمی</item>
+        <item>مهندس پزشکی</item>
+        <item>داندانپزشک</item>
+        <item>فیزیوتراپ</item>
+        <item>روانپزشک</item>
+        <item>جوشکار</item>
+        <item>نویسنده</item>
+        <item>زمین شناس</item>
+        <item>مهندس صنایع</item>
+        <item>گرافیست</item>
+        <item>تدوین گر</item>
+        <item>ایروبیک</item>
+        <item>ژیمناستیک</item>
+        <item>بوکس</item>
+        <item>جوجیتسو</item>
+        <item>جودو</item>
+        <item>کاراته</item>
+        <item>تکواندو</item>
+        <item>شمشیربازی</item>
+        <item>کشتی فرنگی</item>
+        <item>کشتی ازاد</item>
+        <item>ووشو</item>
+        <item>کونگ فو</item>
+        <item>وزنه برداری</item>
+        <item>کیک بوکسینگ</item>
+        <item>پاراگلایدینگ</item>
+        <item>صخره نوردی</item>
+        <item>اتومبیلرانی</item>
+        <item>موتورسواری</item>
+        <item>اسکیت بردینگ</item>
+        <item>اشکنه</item>
+        <item>باقلاپلو</item>
+        <item>خورش قیمه</item>
+        <item>سمبوسه</item>
+        <item>عدس پلو</item>
+        <item>ابگوشت</item>
+        <item>اب دوغ خیار</item>
+        <item>کباب کوبیده</item>
+        <item>کوفته</item>
+        <item>دمپختک</item>
+        <item>زرشک پلو</item>
+        <item>کوکو سبزی</item>
+        <item>کوکو سیب زمینی</item>
+        <item>کتلت</item>
+        <item>کلم پلو</item>
+        <item>کالجوش</item>
+        <item>لوبیاپلو</item>
+        <item>نخود پلو</item>
+        <item>ته چین</item>
+        <item>ته چین مرغ</item>
+        <item>ته چین گوشت</item>
+        <item>کباب چنجه</item>
+        <item>سوسیس بندری</item>
+        <item>کشک و بادمجان</item>
+        <item>حلیم بادمجان</item>
+        <item>تخم مرغ گوجه</item>
+        <item>شیشلیک</item>
+        <item>اب انبار</item>
+        <item>گرداب</item>
+        <item>تالاب</item>
+        <item>سرچشمه</item>
+        <item>خورشید</item>
+        <item>کنسول بازی</item>
+        <item>ضبط صوت</item>
+        <item>ماکروویو</item>
+        <item>ساعت</item>
+        <item>تلفن همراه</item>
+        <item>متورسیکلت</item>
+        <item>قایق موتوری</item>
+        <item>بالگرد</item>
+        <item>هلیکوپتر</item>
+        <item>دزفول</item>
+        <item>فولاد شهر</item>
+        <item>شاهین شهر</item>
+        <item>شهرضا</item>
+        <item>نیشابور</item>
+        <item>سمیرم</item>
+        <item>رامسر</item>
+        <item>کرمانشاه</item>
+        <item>اورومیه</item>
+        <item>همدان</item>
+        <item>زاهدان</item>
+        <item>اردبیل</item>
+        <item>قزوین</item>
+        <item>سنندج</item>
+        <item>گرگان</item>
+        <item>کاشان</item>
+        <item>شهریار</item>
+        <item>نجف اباد</item>
+        <item>ابادان</item>
+        <item>بیرجند</item>
+        <item>بجنورد</item>
+        <item>شهرکرد</item>
+        <item>شاهرود</item>
+        <item>یاسوج</item>
+        <item>بندر انزلی</item>
+        <item>شوشتر</item>
+        <item>لاهیجان</item>
+        <item>چابهار</item>
+        <item>الیگودرز</item>
+        <item>تنکابن</item>
+        <item>چالوس</item>
+        <item>مبارکه</item>
+        <item>گلپایگان</item>
+        <item>مراغه</item>
+        <item>پیاز</item>
+        <item>پیازچه</item>
+        <item>تربچه</item>
+        <item>ریحون</item>
+        <item>اسفناج</item>
+        <item>جعفری</item>
+        <item>شنبلیله</item>
+        <item>شلغم</item>
+        <item>لوبیا</item>
+        <item>نخود فرنگی</item>
+        <item>هویج</item>
+        <item>مارچوبه</item>
+        <item>پوفیلا</item>
+        <item>مفصل</item>
+        <item>تاندون</item>
+        <item>ماهیچه</item>
+        <item>زبان</item>
+        <item>معده</item>
+        <item>دوازدهه</item>
+        <item>روده</item>
+        <item>روده بزرگ</item>
+        <item>روده باریک</item>
+        <item>کیسه صفرا</item>
+        <item>پانکراس</item>
+        <item>حنجره</item>
+        <item>دیافراگم</item>
+        <item>کلیه</item>
+        <item>مثانه</item>
+        <item>تخمدانها</item>
+        <item>بیضه</item>
+        <item>پروستات</item>
+        <item>هیپوفیز</item>
+        <item>غده پاراترویید</item>
+        <item>غده فوق کلیه</item>
+        <item>تیرویید</item>
+        <item>مویرگ</item>
+        <item>طحال</item>
+        <item>بصل النخاع</item>
+        <item>مخچه</item>
+        <item>قرنیه</item>
+        <item>شبکیه</item>
+        <item>گوش میانی</item>
+        <item>پرده صماخ</item>
+        <item>لاله گوش</item>
+        <item>دهلیز</item>
+        <item>لامپ</item>
+        <item>مهتابی</item>
+        <item>شالگردن</item>
+        <item>روسری</item>
+        <item>کلاه</item>
+        <item>تیشرت</item>
+        <item>دامن</item>
+        <item>زیرپوش</item>
+        <item>کاپشن</item>
+        <item>شلوار</item>
+        <item>کت و شلوار</item>
+        <item>دستکش</item>
+        <item>بلوز</item>
+        <item>پلوور</item>
+        <item>ژاکت</item>
+        <item>جلیقه</item>
+        <item>هودی</item>
+        <item>سویتشرت</item>
+        <item>جوراب</item>
+        <item>استین حلقه ایی</item>
+        <item>کروات</item>
+        <item>مایو</item>
+        <item>پاپیون</item>
+        <item>جوراب شلواری</item>
+        <item>چادر</item>
+        <item>مقنعه</item>
+        <item>یقه هفت</item>
+        <item>یقه گرد</item>
+        <item>نیم استین</item>
+        <item>یونیفورم</item>
+        <item>پیشبند</item>
+        <item>کمربند</item>
+        <item>گردنبند</item>
+        <item>دستبند</item>
+        <item>کلاه کپ</item>
+        <item>پیراهن</item>
+        <item>بارانی</item>
+        <item>شلوار گرمکن</item>
+        <item>بند شلواری</item>
+        <item>شلوارک</item>
+        <item>یقه اسکی</item>
+        <item>یقه باز</item>
+        <item>کلار پشت</item>
+        <item>رینگ</item>
+        <item>نانچیکو</item>
+        <item>انگشت</item>
+        <item>کیوی</item>
+        <item>توت سیاه</item>
+        <item>تمشک سیاه</item>
+        <item>زرشک</item>
+        <item>زعفران</item>
+        <item>خرما</item>
+        <item>همزن</item>
+        <item>قابلمه</item>
+        <item>ماهیتابه</item>
+        <item>بخاری</item>
+        <item>صندلی</item>
+        <item>چوب لباسی</item>
+        <item>کاناپه</item>
+        <item>چراغ</item>
+        <item>لوستر</item>
+        <item>کولر ابی</item>
+        <item>کولر گازی</item>
+        <item>پرده</item>
+        <item>حوله</item>
+        <item>سی و یه پل</item>
+        <item>شاه چراغ</item>
+        <item>باغ ارم</item>
+        <item>ارگ بم</item>
+        <item>گنبد کاووس</item>
+        <item>قلعه رودخان</item>
+        <item>زیگورات چغازنبیل</item>
+        <item>طاق بستان</item>
+        <item>بیستون</item>
+        <item>چهلستون</item>
+        <item>کاخ هشت بهشت</item>
+        <item>غار علیصدر</item>
+        <item>تپه سیلک</item>
+        <item>مخلوط کن</item>
+        <item>چرخ گوشت</item>
+        <item>کتری برقی</item>
+        <item>تویوتا</item>
+        <item>فولکس واگن</item>
+        <item>فورد</item>
+        <item>هوندا</item>
+        <item>هیوندای</item>
+        <item>شورولت</item>
+        <item>نیسان</item>
+        <item>سوزوکی</item>
+        <item>مرسدس بنز</item>
+        <item>میتسوبیشی</item>
+        <item>بی ام و</item>
+        <item>لامبرگینی</item>
+        <item>بوگاتی</item>
+        <item>پورشه</item>
+        <item>جگوار</item>
+        <item>جنرال موتورز</item>
+        <item>فراری</item>
+        <item>مازاراتی</item>
+        <item>لکسوس</item>
+        <item>استون مارتین</item>
+        <item>ایران خودرو</item>
+        <item>سایپا</item>
+        <item>پارس خودرو</item>
+        <item>پروتون</item>
+        <item>کادیلاک</item>
+        <item>ولوو</item>
+        <item>مک لارن</item>
+        <item>تسلا</item>
+        <item>رولزرویس</item>
+        <item>زودپز</item>
+        <item>نخود</item>
+        <item>لوبیا چیتی</item>
+        <item>لوبیا قرمز</item>
+        <item>لوبیا چشم بلبلی</item>
+        <item>لوبیا سفید</item>
+        <item>دوربین</item>
+        <item>گردن</item>
+        <item>نخاع</item>
+        <item>استخوان</item>
+        <item>جمجمه</item>
+        <item>باباطاهر</item>
+        <item>خیام</item>
+        <item>مولوی</item>
+        <item>خواجوی کرمانی</item>
+        <item>عبید زاکانی</item>
+        <item>شمس تبریزی</item>
+        <item>عطار</item>
+        <item>پروین اعتصامی</item>
+        <item>قیصر امین پور</item>
+        <item>محمد تقی بهار</item>
+        <item>سهراب سپهری</item>
+        <item>فریدون مشیری</item>
+        <item>فروغ فرخزاد</item>
+        <item>شهریار</item>
+        <item>ملک الشعرا</item>
+        <item>نظامی</item>
+        <item>ناصر خسرو</item>
+        <item>فردوسی</item>
+        <item>قابوس وشمگیر</item>
+        <item>رودکی</item>
+        <item>صمد بهرنگی</item>
+        <item>احمد بیگدلی</item>
+        <item>دهخدا</item>
+        <item>صادق هدایت</item>
+        <item>نادر ابراهیمی</item>
+        <item>بیهقی</item>
+        <item>خاقانی</item>
+        <item>حمید سبزواری</item>
+        <item>مجد خوافی</item>
+        <item>وحشی بافقی</item>
+    </string-array>
+    <string-array name="word3">
+        <item>مژه</item>
+        <item>شنا</item>
+        <item>شال</item>
+        <item>جیب</item>
+        <item>زیپ</item>
+        <item>عبا</item>
+        <item>جین</item>
+        <item>شیر</item>
+        <item>شیر</item>
+        <item>پفک</item>
+        <item>کلم</item>
+        <item>کیک</item>
+        <item>کیف</item>
+        <item>کفش</item>
+        <item>لیف</item>
+        <item>مبل</item>
+        <item>پول</item>
+        <item>پشم</item>
+        <item>تبر</item>
+        <item>تاب</item>
+        <item>چشم</item>
+        <item>گوش</item>
+        <item>کرم</item>
+        <item>سطل</item>
+        <item>گاو</item>
+        <item>موش</item>
+        <item>خوک</item>
+        <item>سیب</item>
+        <item>هلو</item>
+        <item>الو</item>
+        <item>عسل</item>
+        <item>رشت</item>
+        <item>یمن</item>
+        <item>دست</item>
+        <item>موز</item>
+        <item>سوپ</item>
+        <item>سرخ</item>
+        <item>سبز</item>
+        <item>ابی</item>
+        <item>دره</item>
+        <item>برف</item>
+        <item>ذرت</item>
+        <item>دوغ</item>
+        <item>حلق</item>
+        <item>مری</item>
+        <item>نای</item>
+        <item>دست</item>
+        <item>مغز</item>
+        <item>زرد</item>
+        <item>کرج</item>
+        <item>یزد</item>
+        <item>شوش</item>
+        <item>طبس</item>
+        <item>خوی</item>
+        <item>کبد</item>
+        <item>ریه</item>
+        <item>رحم</item>
+        <item>قلب</item>
+        <item>فرش</item>
+        <item>اتو</item>
+        <item>مار</item>
+        <item>باز</item>
+        <item>بره</item>
+        <item>پشه</item>
+        <item>مگس</item>
+        <item>غاز</item>
+        <item>خرس</item>
+        <item>تار</item>
+        <item>چین</item>
+        <item>هند</item>
+        <item>توت</item>
+        <item>کمر</item>
+        <item>ران</item>
+        <item>کتف</item>
+        <item>لگن</item>
+        <item>تخت</item>
+        <item>میز</item>
+        <item>کمد</item>
+        <item>گاز</item>
+        <item>موس</item>
+        <item>غار</item>
+        <item>بنز</item>
+        <item>کیا</item>
+        <item>رنو</item>
+        <item>پژو</item>
+        <item>جیپ</item>
+        <item>چری</item>
+        <item>دوج</item>
+        <item>عدس</item>
+        <item>ماش</item>
+        <item>لپه</item>
+        <item>شمس</item>
+        <item>تقی</item>
+        <item>علی</item>
+        <item>نقی</item>
+        <item>حسن</item>
+        <item>حمد</item>
+        <item>خضر</item>
+        <item>رها</item>
+        <item>رضا</item>
+        <item>سام</item>
+        <item>صمد</item>
+        <item>قلی</item>
+        <item>کرم</item>
+        <item>نصر</item>
+        <item>نوح</item>
+        <item>زال</item>
+        <item>پری</item>
+        <item>حنا</item>
+        <item>رزی</item>
+        <item>سحر</item>
+        <item>صبا</item>
+        <item>صنم</item>
+        <item>گلی</item>
+        <item>هما</item>
+        <item>فرح</item>
+        <item>اذر</item>
+    </string-array>
+    <string-array name="wordTimer">
+        <item>رودخانه</item>
+        <item>ابشار</item>
+        <item>دریاچه</item>
+        <item>اوقیانوس</item>
+        <item>جنگل</item>
+        <item>اب انبار</item>
+        <item>گرداب</item>
+        <item>تالاب</item>
+        <item>سرچشمه</item>
+        <item>خورشید</item>
+        <item>افغانستان</item>
+        <item>پاکستان</item>
+        <item>سنگاپور</item>
+        <item>عربستان</item>
+        <item>کره شمالی</item>
+        <item>فلسطین</item>
+        <item>کره جنوبی</item>
+        <item>امارات</item>
+        <item>هنگ کنگ</item>
+        <item>هندوستان</item>
+        <item>مغولستان</item>
+        <item>ویتنام</item>
+        <item>فیلیپین</item>
+        <item>ارژانتین</item>
+        <item>اکوادور</item>
+        <item>کلمبیا</item>
+        <item>کاستاریکا</item>
+        <item>برزیل</item>
+        <item>کانادا</item>
+        <item>هندبال</item>
+        <item>فوتسال</item>
+        <item>فوتبال</item>
+        <item>بسکتبال</item>
+        <item>والیبال</item>
+        <item>اسکاتلند</item>
+        <item>انگلستان</item>
+        <item>فرانسه</item>
+        <item>ایرلند</item>
+        <item>لهستان</item>
+        <item>اسپانیا</item>
+        <item>دانمارک</item>
+        <item>صربستان</item>
+        <item>اره‌ماهی</item>
+        <item>اسب دریایی</item>
+        <item>دلفین</item>
+        <item>عروس دریایی</item>
+        <item>سفره ماهی</item>
+        <item>ستاره دریایی</item>
+        <item>فک</item>
+        <item>قزل الا</item>
+        <item>کوسه</item>
+        <item>مارماهی</item>
+        <item>نهنگ</item>
+        <item>مرجان دریایی</item>
+        <item>هشت‌پا</item>
+        <item>وال</item>
+        <item>میگو</item>
+        <item>خرچنگ</item>
+        <item>ماهی خاویار</item>
+        <item>اردک</item>
+        <item>باز</item>
+        <item>بلبل</item>
+        <item>بلدرچین</item>
+        <item>بوقلمون</item>
+        <item>پرستو</item>
+        <item>جغد</item>
+        <item>چکاوک</item>
+        <item>خروس</item>
+        <item>درنا</item>
+        <item>دارکوب</item>
+        <item>خفاش</item>
+        <item>شاهین</item>
+        <item>طاووس</item>
+        <item>طوطی</item>
+        <item>عقاب</item>
+        <item>غاز</item>
+        <item>فلامینگو</item>
+        <item>قناری</item>
+        <item>کاسکو</item>
+        <item>کبوتر</item>
+        <item>کرکس</item>
+        <item>کلاغ</item>
+        <item>لک‌لک</item>
+        <item>هدهد</item>
+        <item>گنجشک</item>
+        <item>مرغابی</item>
+        <item>گوسفند</item>
+        <item>گوساله</item>
+        <item>روباه</item>
+        <item>خرس قطبی</item>
+        <item>یوزپلنگ</item>
+        <item>پلنگ</item>
+        <item>گاو</item>
+        <item>خرس</item>
+        <item>اسب</item>
+        <item>شغال</item>
+        <item>گربه</item>
+        <item>گوزن</item>
+        <item>بز کوهی</item>
+        <item>زرافه</item>
+        <item>گورخر</item>
+        <item>کرگدن</item>
+        <item>گراز</item>
+        <item>شیر</item>
+        <item>کاراته</item>
+        <item>جوجیتسو</item>
+        <item>جودو</item>
+        <item>کونگ فو</item>
+        <item>کیک بوکس</item>
+        <item>تکواندو</item>
+        <item>بوکس</item>
+        <item>کشتی</item>
+        <item>نینجوتسو</item>
+        <item>ووشو</item>
+        <item>تایچی</item>
+        <item>گیلاس</item>
+        <item>زردالو</item>
+        <item>هلو</item>
+        <item>شلیل</item>
+        <item>الو</item>
+        <item>خرما</item>
+        <item>انبه</item>
+        <item>البالو</item>
+        <item>الو سبز</item>
+        <item>ترومبون</item>
+        <item>ساکسوفون</item>
+        <item>سازدهنی</item>
+        <item>فلوت</item>
+        <item>شیپور</item>
+        <item>تار</item>
+        <item>سه تار</item>
+        <item>سی تاز</item>
+        <item>سنتور</item>
+        <item>کمانچه</item>
+        <item>گیتار</item>
+        <item>قانون</item>
+        <item>ویولن</item>
+        <item>دوتار</item>
+        <item>هارپ</item>
+    </string-array>
+
+</resources>

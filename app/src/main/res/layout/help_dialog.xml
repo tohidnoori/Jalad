@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/_10cdp"
+    android:paddingLeft="@dimen/_10cdp"
+    android:paddingRight="@dimen/_10cdp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_10cdp"
+        android:layout_weight="1"
+        app:cardBackgroundColor="#C62E72">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/showWord"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45cdp"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_5cdp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:src="@drawable/coin"
+                android:text="30"
+                android:textColor="#FFD600"
+                android:textSize="@dimen/_25cdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight=".35"
+                android:fontFamily="@font/bmitrabold"
+                android:gravity="center"
+                android:text="یک حرف نشن بده"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_25cdp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/_5cdp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="@dimen/_50cdp"
+                    android:layout_height="@dimen/_50cdp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/show" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_10cdp"
+        android:layout_weight="1"
+        android:id="@+id/delete5words"
+        app:cardBackgroundColor="#7D2EEA">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginStart="@dimen/_5cdp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_baseline_delete_forever_24" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight=".35"
+                android:fontFamily="@font/bmitrabold"
+
+                android:gravity="center"
+                android:text="پنج حرف را خط بزن"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_25cdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45cdp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/_5cdp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:src="@drawable/coin"
+                android:text="15"
+                android:textColor="#FFD600"
+                android:textSize="@dimen/_25cdp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_10cdp"
+        android:layout_weight="1"
+        app:cardBackgroundColor="#D32222">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/passLevel"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45cdp"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_5cdp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:src="@drawable/coin"
+                android:text="70"
+                android:textColor="#FFD600"
+                android:textSize="@dimen/_25cdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight=".35"
+                android:fontFamily="@font/bmitrabold"
+                android:gravity="center"
+                android:text="این مرحله رو رد کن"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_25cdp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/_5cdp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="@dimen/_50cdp"
+                    android:layout_height="@dimen/_50cdp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/pass_level" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

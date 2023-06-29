@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffff3d3d"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:id="@+id/titleJalad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5cdp"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5cdp"
+            android:layout_marginRight="@dimen/_5cdp"
+            android:layout_weight="1.0"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cartoon"
+                android:gravity="center"
+                android:text="د"
+                android:textSize="@dimen/_60cdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_5cdp"
+                android:layout_marginLeft="@dimen/_10cdp"
+                android:layout_marginRight="@dimen/_10cdp"
+                android:background="#ff0000d5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5cdp"
+            android:layout_marginRight="@dimen/_5cdp"
+            android:layout_weight="1.0"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/aTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cartoon"
+                android:gravity="center"
+                android:text="ا"
+                android:textSize="@dimen/_60cdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_5cdp"
+                android:layout_marginLeft="@dimen/_10cdp"
+                android:layout_marginRight="@dimen/_10cdp"
+                android:background="#ff0000d5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5cdp"
+            android:layout_marginRight="@dimen/_5cdp"
+            android:layout_weight="1.0"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cartoon"
+                android:gravity="center"
+                android:text="ل"
+                android:textSize="@dimen/_60cdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_5cdp"
+                android:layout_marginLeft="@dimen/_10cdp"
+                android:layout_marginRight="@dimen/_10cdp"
+                android:background="#ff0000d5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5cdp"
+            android:layout_marginRight="@dimen/_5cdp"
+            android:layout_weight="1.0"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/jTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10cdp"
+                android:fontFamily="@font/cartoon_color"
+                android:gravity="center"
+                android:text="ج"
+                android:textSize="@dimen/_45cdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_5cdp"
+                android:layout_marginLeft="@dimen/_10cdp"
+                android:layout_marginRight="@dimen/_10cdp"
+                android:background="#ff0000d5" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/startGame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_20cdp"
+                android:layout_marginTop="@dimen/_15cdp"
+                android:layout_marginEnd="@dimen/_20cdp"
+                app:rippleColor="@color/black"
+                style="@style/CustomCardViewStyle"
+                app:strokeWidth="@dimen/_2cdp"
+                app:strokeColor="@color/black"
+                app:cardBackgroundColor="@color/purple_500" >
+                <TextView
+                    android:fontFamily="@font/cartoon1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="شروع"
+                    android:textColor="#ffffffff"
+                    android:textSize="@dimen/_40cdp"
+                    />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/start2Player"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_70cdp"
+                android:layout_marginTop="@dimen/_15cdp"
+                android:layout_marginEnd="@dimen/_70cdp"
+                app:rippleColor="@color/black"
+                style="@style/CustomCardViewStyle"
+                app:strokeWidth="@dimen/_2cdp"
+                app:strokeColor="@color/black"
+                app:cardBackgroundColor="#21A859" >
+                <TextView
+                    android:fontFamily="@font/cartoon1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="دو نفره"
+                    android:textColor="#ffffffff"
+                    android:textSize="@dimen/_40cdp"
+                    />
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="@dimen/_50cdp"
+            android:layout_marginEnd="@dimen/_50cdp"
+            android:layout_marginBottom="@dimen/_5cdp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/goScoreBoard"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50cdp"
+                android:layout_weight="1.0"
+                android:src="@drawable/scoreboard" />
+
+            <ImageView
+                android:id="@+id/goSetting"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50cdp"
+                android:layout_weight="1.0"
+                android:src="@drawable/settings" />
+
+            <ImageView
+                android:id="@+id/goStore"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50cdp"
+                android:layout_weight="1.0"
+                android:src="@drawable/store" />
+
+            <ImageView
+                android:id="@+id/goAchievement"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50cdp"
+                android:layout_weight="1.0"
+                android:src="@drawable/achievement" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

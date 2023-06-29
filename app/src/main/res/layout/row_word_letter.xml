@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/layoutRow"
+    android:layout_width="@dimen/_23cdp"
+    android:layout_marginEnd="@dimen/_5cdp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ب"
+        android:gravity="center"
+        android:textSize="@dimen/_23cdp"
+        android:fontFamily="@font/bmitrabold"
+        android:id="@+id/letter"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#0A21F4"
+        android:id="@+id/underline"
+        />
+</LinearLayout>

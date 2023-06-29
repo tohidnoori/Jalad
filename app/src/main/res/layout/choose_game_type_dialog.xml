@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_300cdp"
+    android:background="#00B8D4"
+    android:padding="@dimen/_5cdp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/normalSinglePlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="ltr"
+        android:layout_margin="@dimen/_5cdp"
+        android:background="#FFFDFD"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/_5cdp"
+        android:paddingBottom="@dimen/_5cdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="#0026FF"
+            android:padding="@dimen/_5cdp"
+            android:fontFamily="@font/cartoon_bold"
+            android:text="کلمات مختلف"
+            android:textSize="@dimen/_30cdp" />
+
+        <ImageView
+            android:id="@+id/startNormalSinglePlayer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/_5cdp"
+            android:layout_weight="7"
+            android:src="@drawable/start" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/word3SinglePlayer"
+        android:layout_below="@+id/normalSinglePlayer"
+        android:layout_margin="@dimen/_5cdp"
+        android:background="#FFFDFD"
+        android:orientation="horizontal"
+        android:layoutDirection="ltr"
+        android:paddingTop="@dimen/_5cdp"
+        android:paddingBottom="@dimen/_5cdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textColor="#FB0303"
+            android:layout_weight="1"
+            android:fontFamily="@font/cartoon_bold"
+            android:gravity="center"
+            android:padding="@dimen/_5cdp"
+            android:text="کلمات سه حرفی"
+            android:textSize="@dimen/_30cdp" />
+
+        <ImageView
+            android:id="@+id/startWord3SinglePlayer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/_5cdp"
+            android:layout_weight="7"
+            android:src="@drawable/start" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/word3SinglePlayer"
+        android:layout_margin="@dimen/_5cdp"
+        android:background="#FFFDFD"
+        android:orientation="horizontal"
+        android:layoutDirection="ltr"
+        android:paddingTop="@dimen/_5cdp"
+        android:paddingBottom="@dimen/_5cdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textColor="#FF9800"
+            android:layout_weight="1"
+            android:fontFamily="@font/cartoon_bold"
+            android:gravity="center"
+            android:padding="@dimen/_5cdp"
+            android:text="زمانی"
+            android:textSize="@dimen/_30cdp" />
+
+        <ImageView
+            android:id="@+id/startTimingSinglePlayer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/_5cdp"
+            android:layout_weight="7"
+            android:src="@drawable/start" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

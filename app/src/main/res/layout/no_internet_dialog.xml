@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2B2A2A"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_5cdp"
+        android:layout_marginTop="@dimen/_15cdp"
+        android:layout_marginRight="@dimen/_5cdp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="Check your internet connection"
+        android:textSize="@dimen/_22cdp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/cancelAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_30cdp"
+        android:layout_marginTop="@dimen/_20cdp"
+        android:layout_marginRight="@dimen/_30cdp"
+        android:layout_marginBottom="@dimen/_20cdp"
+        android:layout_weight="1"
+        android:padding="@dimen/_5cdp"
+        android:text="ok"
+        android:textSize="@dimen/_25cdp"
+        app:backgroundTint="#0091EA" />
+</LinearLayout>

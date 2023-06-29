@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_margin="@dimen/_7cdp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_7cdp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Src : "
+                    android:padding="@dimen/_5cdp"
+                    android:textSize="@dimen/_15cdp"
+                    android:id="@+id/orderSrc"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Dst : "
+                    android:textSize="@dimen/_15cdp"
+                    android:padding="@dimen/_5cdp"
+                    android:id="@+id/orderDst"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1cdp"
+                android:background="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5cdp"
+                android:textSize="@dimen/_15cdp"
+                android:id="@+id/orderPrice"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1cdp"
+                android:background="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_12cdp"
+                android:id="@+id/orderTime"/>
+
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#FFAB00"
+            android:layout_marginStart="@dimen/_5cdp"
+            android:text="Ordered"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/orderStatus"/>
+    </LinearLayout>
+</RelativeLayout>

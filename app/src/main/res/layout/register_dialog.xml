@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_300cdp"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5cdp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/registerTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5cdp"
+        android:fontFamily="@font/cartoon1"
+        android:gravity="center"
+        android:text="ثبت نام"
+        android:textColor="#ffffffff"
+        android:textSize="@dimen/_30cdp" />
+
+    <LinearLayout
+        android:id="@id/dialogDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5cdp"
+            android:background="#7900bfa5"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_5cdp"
+                android:layout_weight="3.0"
+                android:fontFamily="@font/byekan"
+                android:gravity="center"
+                android:text="نام کاربری"
+                android:textColor="#ffffd600"
+                android:textSize="@dimen/_20cdp" />
+
+            <EditText
+                android:id="@id/enterUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5cdp"
+                android:layout_weight="1.0"
+                android:fontFamily="@font/byekan"
+                android:gravity="center"
+                android:padding="@dimen/_10cdp"
+                android:textSize="@dimen/_20cdp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5cdp"
+            android:background="#7900bfa5"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_5cdp"
+                android:layout_weight="3.0"
+                android:fontFamily="@font/byekan"
+                android:gravity="center"
+                android:text="رمز عبور"
+                android:textColor="#ffffd600"
+                android:textSize="@dimen/_20cdp" />
+
+            <EditText
+                android:id="@id/enterPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5cdp"
+                android:layout_weight="1.0"
+                android:fontFamily="@font/byekan"
+                android:gravity="center"
+                android:padding="@dimen/_10cdp"
+                android:textSize="@dimen/_20cdp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5cdp"
+            android:background="#7900bfa5"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5cdp"
+                android:layout_weight="3.0"
+                android:fontFamily="@font/byekan"
+                android:gravity="center"
+                android:text="ایمیل"
+                android:textColor="#ffffd600"
+                android:textSize="@dimen/_20cdp" />
+
+            <EditText
+                android:id="@+id/enterEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5cdp"
+                android:layout_weight="1.0"
+                android:fontFamily="@font/byekan"
+                android:gravity="center"
+                android:textSize="@dimen/_20cdp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5cdp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@id/submitRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5cdp"
+                android:layout_weight="1.0"
+                android:background="#a402883a"
+                android:fontFamily="@font/byekan"
+                android:gravity="center"
+                android:text="ثبت"
+                android:textColor="#ffffffff"
+                android:textSize="@dimen/_20cdp" />
+
+            <Button
+                android:id="@id/cancelRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5cdp"
+                android:layout_weight="1.0"
+                android:background="#9ec51162"
+                android:fontFamily="@font/byekan"
+                android:gravity="center"
+                android:text="لغو"
+                android:textColor="#ffffffff"
+                android:textSize="@dimen/_20cdp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@id/showRegisterError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5cdp"
+        android:fontFamily="@font/arezvan_fat"
+        android:gravity="center"
+        android:textColor="#ffd50000"
+        android:textSize="@dimen/_15cdp" />
+
+    <TextView
+        android:id="@+id/goLoginDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/showRegisterError"
+        android:layout_marginTop="@dimen/_5cdp"
+        android:fontFamily="@font/arezvan_fat"
+        android:gravity="center"
+        android:text="ورود کنید"
+        android:textColor="#ff605e5e"
+        android:textColorHighlight="#ffffffff"
+        android:textColorLink="#ff00ff00"
+        android:textSize="@dimen/_15cdp" />
+</LinearLayout>
