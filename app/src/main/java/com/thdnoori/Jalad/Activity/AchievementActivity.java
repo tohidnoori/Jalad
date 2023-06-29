@@ -21,8 +21,8 @@ public class AchievementActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = ActivityAchievementBinding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());
         achievementList = Achievement.listAll(Achievement.class);
+        setContentView(binding.getRoot());
         for (int i =0 ; i<achievementList.size();i++){
             if (!achievementList.get(i).isOnce()){
                 if (GoodPrefs.getInstance().getInt(achievementList.get(i).getPerfName(),0)>=achievementList.get(i).getRecord()) {
